@@ -29,3 +29,26 @@ You can verify that this has happened by logging
 ```bash
 curl  -X GET http://localhost:8080/api/v1/employees/1
 ```
+
+# Example
+`$ curl -X GET http://localhost:8080/api/v1/employees`
+```bash
+[ {
+  "id" : 2,
+  "submitted" : "2022-10-30T20:32:35.649+00:00",
+  "firstName" : "Barry",
+  "lastName" : "Blue",
+  "emailId" : "domain@provider.tld2"
+}, {
+  "id" : 3,
+  "submitted" : "2022-10-30T20:32:47.755+00:00",
+  "firstName" : "Carlos",
+  "lastName" : "Crew",
+  "emailId" : "domain@provider.tld3"
+}, {
+  "id" : 4,
+  "submitted" : "2022-10-30T20:32:53.120+00:00",
+  "firstName" : "Billington",
+  "lastName" : "Boo",
+  "emailId" : "domain@provider.tld4"
+} ]```
